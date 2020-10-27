@@ -25,7 +25,7 @@ header{
     background-color: var(--white);
 }
 
-h1{
+header h1{
     font-size: 18px;
 }
 
@@ -39,7 +39,7 @@ header nav ul{
     list-style: none;
 }
 
-nav a:hover{
+header nav a:hover{
     color: var(--blue);
 }
 
@@ -59,9 +59,10 @@ nav a:hover{
 
 .card{
     border-color: var(--light-grey);
-    border-style: solid;
+    /* border-style: solid; */
     border-radius: 5px;
-    box-shadow: inset;
+    /* box-shadow: inset; */
+    /* box-shadow: 1px 4px var(--light-grey); -1px -4px var(--light-grey);  */
 }
 
 .testing{
@@ -69,7 +70,7 @@ nav a:hover{
     color: var(--white);
 }
 
-.cta a{
+.testing .cta a{
     background-color: var(--light-green);
     color: var(--white);
     text-decoration: none;
