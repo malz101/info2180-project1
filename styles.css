@@ -109,6 +109,7 @@ header nav a:hover{
 .learn-about h3{
     color: var(--light-green);
     font-size: 21px;
+    margin:  1em 0em 0em 0em; 
 }
 
 div.cards{
@@ -137,9 +138,7 @@ div.cards{
 .card{
     padding-top: 5px;
     border-color: var(--light-grey);
-/*     border-style: solid; */
     border-radius: 5px;
-    /* box-shadow: inset; */
     box-shadow: 2px 4px  4px 1px var(--light-grey), -2px 0px 4px 1px var(--light-grey);
     display: flex;
     flex-direction: column;
@@ -147,22 +146,28 @@ div.cards{
 
  .card img{
 /*     max-height: 300px; */
-    margin: auto;
+    margin-top: auto;
     max-width: 100%;
 
 }
 
 .card-body{
 /*     max-height: 20px; */
-    margin: auto;
-    padding-left: 0.6em;
-    padding-right: 0.6em;
+    margin-bottom: auto;
+    margin-top:auto;
+    padding-left: 1em;
+    padding-right: 1em;
         
+}
+.card-body p{
+    margin-top: 0.5em
 }
 
 .testing{
     background-color: var(--dark-grey);
     color: var(--white);
+    overflow: auto;
+    padding: 3em 0em 5em 0em;
 }
 
 .testing .cta a{
@@ -170,8 +175,29 @@ div.cards{
     color: var(--white);
     text-decoration: none;
     border-radius: 5px;
+    text-transform: uppercase;
+/*     vertical-align: middle; */
 }
 
+.testing-desciption{
+    display: inline-block;
+    margin-right: 10%;
+    max-width: 63%;
+}
+
+.testing h2{
+    margin-bottom: 1.5em;
+}
+
+.testing .cta{
+/*     margin-left: 5%; */
+    display: inline-block;
+     vertical-align: 3em;
+}
+
+.stories{
+    clear: both
+}
 .stories h2{
     color: var(--blue);
 }
@@ -194,11 +220,15 @@ div.cards{
     color: var(--white);
 }
 
-.btn{
+.newsletter .btn{
     background-color: var(--blue);
     color: var(--white);
     /* border-radius: 5px; */
     border: none;
+}
+
+.btn{
+    padding: 1em 2em;
 }
 
 footer{
