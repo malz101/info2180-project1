@@ -53,6 +53,8 @@ header nav ul{
 
 header nav ul li{
     display: inline;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 header nav a:hover{
@@ -61,7 +63,7 @@ header nav a:hover{
 
 .overview-hero{
     background-color: var(--light-grey);
-    padding-top: 2.5em;
+    padding-top: 2em;
     padding-bottom: 2.5em;
     overflow: auto;
     display: flex;
