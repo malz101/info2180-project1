@@ -98,6 +98,7 @@ header nav a:hover{
 
 .learn-about{
     clear: both;
+    margin-bottom: 40px;
 }
 
 .learn-about h2{
@@ -114,7 +115,8 @@ div.cards{
     display: grid;
     grid-template-columns: repeat(3,auto);
     grid-template-rows: repeat(1,auto);
-    grid-gap: 20px;
+    grid-gap: 25px;
+    padding-top: 10px;
 }
 
 .card:nth-child(1){
@@ -133,18 +135,29 @@ div.cards{
 }
 
 .card{
+    padding-top: 5px;
     border-color: var(--light-grey);
-    /* border-style: solid; */
+/*     border-style: solid; */
     border-radius: 5px;
     /* box-shadow: inset; */
-    /* box-shadow: 1px 4px var(--light-grey); -1px -4px var(--light-grey);  */
+    box-shadow: 2px 4px  4px 1px var(--light-grey), -2px 0px 4px 1px var(--light-grey);
+    display: flex;
+    flex-direction: column;
 }
 
  .card img{
 /*     max-height: 300px; */
-    max-width: 50%;
-    max-height: 50%;
+    margin: auto;
+    max-width: 100%;
 
+}
+
+.card-body{
+/*     max-height: 20px; */
+    margin: auto;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+        
 }
 
 .testing{
