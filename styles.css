@@ -71,12 +71,16 @@ header nav a:hover{
     justify-content: center;
     align-items: center;
 }
+
+.overview-hero .container{
+    width: 65%;
+}
 .overview-hero-image{
     
 /*     max-height: 100%; */
     max-width: 30%;
     float: left;
-    margin-left: 5%;
+/*     margin-left: 5%; */
     margin-right: 10%;
 }
 
@@ -92,7 +96,7 @@ header nav a:hover{
 }
 
 .overview-hero-text{
-    margin-right: 5%;
+/*     margin-right: 5%; */
 /*     margin-left: 10%; */
 }
 
@@ -174,7 +178,7 @@ div.cards{
     background-color: var(--light-green);
     color: var(--white);
     text-decoration: none;
-    border-radius: 5px;
+/*     border-radius: 5px; */
     text-transform: uppercase;
 /*     vertical-align: middle; */
 }
@@ -192,7 +196,7 @@ div.cards{
 .testing .cta{
 /*     margin-left: 5%; */
     display: inline-block;
-     vertical-align: 3em;
+    vertical-align: 3em;
 }
 
 .stories{
@@ -241,6 +245,15 @@ div.cards{
     color: var(--white);
 }
 
+.newsletter .container{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em 0em 3em 0em;
+}
+
 .newsletter .btn{
     background-color: var(--blue);
     color: var(--white);
@@ -249,10 +262,28 @@ div.cards{
 }
 
 .btn{
-    padding: 1em 2em;
+    padding: 1em 3em;
+    display: inline;
+    border-radius: 5px;
 }
+
+.newsletter form{
+    width: 100%;
+} 
+
+.newsletter .form-group{
+    display: inline;
+}
+
+input{
+    padding: 1em 0em;
+    width: 65%;
+    max-width:65%;
+}
+
 
 footer{
     background-color: var(--dark-grey);
     color: var(--white);
+    padding: 0.5em 0em;
 }
