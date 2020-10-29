@@ -66,14 +66,14 @@ header nav a:hover{
     padding-top: 2em;
     padding-bottom: 2.5em;
     overflow: auto;
-    display: flex;
-    flex-direction: row;
+/*     display: flex; */
+/*     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .overview-hero .container{
-    width: 65%;
+    max-width: 65%;
 }
 .overview-hero-image{
     
@@ -90,8 +90,8 @@ header nav a:hover{
 /*      max-height: 100%; */ 
     max-width: 350px;
     max-height:  200px;
-    height: auto;
-    width: auto;
+/*     height: auto; */
+/*     width: auto; */
    
 }
 
@@ -246,7 +246,7 @@ div.cards{
 }
 
 .newsletter .container{
-    width: 38%;
+    max-width: 38%;
     display: flex;
     flex-direction: column;
     justify-content: center;
