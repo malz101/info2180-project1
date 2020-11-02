@@ -2,9 +2,9 @@
 window.onload = function(){
     const newsletter = document.querySelector("section.newsletter");
     const btn = newsletter.querySelector("form button");
-    btn.addEventListener("click",function(){
+    btn.addEventListener("click",function(e){
         console.log("Event triggered");
-        event.preventDefault();
+        e.preventDefault();
         let input = newsletter.querySelector("form input");
         let message = newsletter.querySelector("div.message");
         if(input.value){
